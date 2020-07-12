@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  margin: 1rem;
+}
+h2 {
+  margin-top: 1rem;
+}
+.input {
+  margin-top: 1rem;
+}
+.names {
+  padding: 1rem;
+}
+li {
+  list-style-type: none;
+}
+.clickable {
+  cursor: pointer;
+}
+.deleteButton {
+  color: white;
+  font-weight: bold;
+  background: darkred;
+  margin-right: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.deleteButton:hover {
+  background: white;
+  color: darkred;
+}
